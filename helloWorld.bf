@@ -4,11 +4,11 @@ This is the example from Wikipedia
 [
 	>++++               Add 4 to Cell #1; this will always set Cell #1 to 4
 	[                   as the cell will be cleared by the loop
-	>++             Add 2 to Cell #2
-	>+++            Add 3 to Cell #3
-	>+++            Add 3 to Cell #4
-	>+              Add 1 to Cell #5
-	<<<<-           Decrement the loop counter in Cell #1
+		>++             Add 2 to Cell #2
+		>+++            Add 3 to Cell #3
+		>+++            Add 3 to Cell #4
+		>+              Add 1 to Cell #5
+		<<<<-           Decrement the loop counter in Cell #1
 	]                   Loop till Cell #1 is zero; number of iterations is 4
 	>+                  Add 1 to Cell #2
 	>+                  Add 1 to Cell #3
