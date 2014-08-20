@@ -35,9 +35,7 @@ my %C_BODY = (
 my $fName = shift(@ARGV);
 my $cName = "$fName.c";
 
-print "Opening: $fName\n";
 open BFILE, "<", "$fName" or die $!;
-print "Opening: $cName\n";
 open CFILE, ">", "$cName" or die $!;
 
 my @code;
@@ -59,3 +57,8 @@ foreach my $char (@code) {
 print CFILE "$C_FOOTER";
 
 close CFILE or die $!;
+
+####################################
+BEGIN {push @INC, './'}
+use Brainfuck;
+Brainfuck::bfLoad($cName);
