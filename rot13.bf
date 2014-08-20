@@ -1,4 +1,3 @@
-
 This program is also copied from Wikipedia!
 -,+[							Read first character and start outer character reading loop
 	-[							Skip forward if character is 0
