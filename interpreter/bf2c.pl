@@ -3,6 +3,12 @@
 use strict;
 use warnings;
 
+################################
+# USAGE:
+#	$ ./bf2c <BrainFuckFileName>
+# 
+################################
+
 # Headers and Footers for the C program:
 my $C_HEADER = "int main() {
 char array[1024];
