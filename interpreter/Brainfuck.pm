@@ -25,11 +25,11 @@ use vars qw(
 	%EXPORT_TAGS
 );
 
-$VERSION		= "v1.00";
-@ISA			= qw(Exporter);
-@EXPORT			= ();		# What to export by default
-@EXPORT_OK		= qw(bfLoad bfClean);		# Set functions to allow export
-%EXPORT_TAGS	= ( DEFAULT	=> [qw(&bfLoad $bfClean)] );	# Set function packs
+$VERSION	= "v1.00";
+@ISA		= qw(Exporter);
+@EXPORT		= ();		# What to export by default
+@EXPORT_OK	= qw(bfLoad bfClean bfBody bfWrite);		# Set functions to allow export
+%EXPORT_TAGS	= ( DEFAULT	=> [qw(&bfLoad &bfClean &bfBody &bfWrite)] );	# Set function packs
 
 sub bfLoad {
 	# Just loads the file
