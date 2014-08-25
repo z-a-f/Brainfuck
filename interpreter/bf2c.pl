@@ -3,11 +3,14 @@
 use strict;
 use warnings;
 
-################################
+################################################
 # USAGE:
 #	$ ./bf2c <BrainFuckFileName>
+#
+# This script converts a BF file into C
+# The procedure is from the Wikipedia page
 # 
-################################
+################################################
 
 # Headers and Footers for the C program:
 my $C_HEADER = "int main() {
