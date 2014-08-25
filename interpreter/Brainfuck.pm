@@ -29,7 +29,8 @@ $VERSION	= "v1.00";
 @ISA		= qw(Exporter);
 @EXPORT		= ();		# What to export by default
 @EXPORT_OK	= qw(bfLoad bfClean bfBody bfWrite);		# Set functions to allow export
-%EXPORT_TAGS	= ( DEFAULT	=> [qw(&bfLoad &bfClean &bfBody &bfWrite)] );	# Set function packs
+%EXPORT_TAGS	= ( # Set function packs
+		    DEFAULT	=> [qw(&bfLoad &bfClean &bfBody &bfWrite)]);	
 
 sub bfLoad {
 	# Just loads the file
