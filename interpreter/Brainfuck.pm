@@ -106,9 +106,5 @@ int main() {
 }
 
 
-1;
-
-
-
-
+1;				# Return true (once the module is loaded)
 

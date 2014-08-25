@@ -35,6 +35,7 @@ if ($#ARGV == -1) {
 my $fName = shift(@ARGV);
 my $cName = "$fName.c";
 
+# open the files:
 open BFILE, "<", "$fName" or die $!;
 open CFILE, ">", "$cName" or die $!;
 
